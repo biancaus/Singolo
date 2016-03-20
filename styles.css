@@ -48,8 +48,18 @@ body {
     color: #f06c64;
 }
 
+.banner {
+    background-color: #f06c64;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
 @media screen and (max-width: 670px) {
     .navbar {
-        height: 120px;
+        height: 110px;
+    }
+    
+    .links {
+        margin:0;
     }
 }
