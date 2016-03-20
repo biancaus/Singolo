@@ -1,0 +1,55 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: monospace;
+}
+
+ {
+    outline: yellow solid 1px;
+}
+.navbar {
+    background-color: #2d303a;
+    border-bottom: solid 6px #323746;
+    height: 90px;
+}
+
+.nav{
+    max-width: 950px;
+    margin: auto;
+    color: white;
+}
+
+.links {
+    color: #44495b;
+    width: 420px;
+    float: right;
+    text-align: right;
+    margin-top: 40px;
+    font-size: 0.75em;
+    
+}
+
+.links a {
+   color: white;
+   text-decoration: none;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.logo {
+    color: white;
+    width: 250px;
+    float: left;
+    margin-top: 35px;
+    font-size: 1.4em;
+}
+
+.salmon {
+    color: #f06c64;
+}
+
+@media screen and (max-width: 670px) {
+    .navbar {
+        height: 120px;
+    }
+}
